@@ -11,7 +11,10 @@
     "esbenp.prettier-vscode",
     "2gua.rainbow-brackets",
     "dbaeumer.vscode-eslint",
-    "marqu3s.aurora-x"
+    "marqu3s.aurora-x",
+    "yzhang.markdown-all-in-one",
+    "msjsdiag.vscode-react-native",
+    "dsznajder.es7-react-js-snippets"
   ],
 
   "remoteUser": "vscode"
