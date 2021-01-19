@@ -4,6 +4,9 @@ ENV DENO_INSTALL=/deno
 RUN mkdir -p /deno \
     && curl -fsSL https://deno.land/x/install/install.sh | sh \
     && chown -R vscode /deno \
+    && curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash - \
+    && sudo apt-get install -y nodejs \
+    && npm install --global yarn \
     && yarn global add create-react-app
 
 ENV PATH=${DENO_INSTALL}/bin:${PATH} \

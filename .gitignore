@@ -1,1 +1,3 @@
 .vscode/
+node_modules/
+deno-react/node_modules/
